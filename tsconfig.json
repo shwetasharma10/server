@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "target": "es2015",
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./src/@types"]
+  },
+  "lib": ["es2015"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
